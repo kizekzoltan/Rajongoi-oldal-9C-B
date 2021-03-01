@@ -1,0 +1,22 @@
+a {
+    color: #2B2219;
+    text-decoration: none;
+}
+table{
+    width: 850px;
+    background-color: #CCBEB1;
+}
+td{
+    margin: 10pt;
+    margin
+}
+.navbar{
+    width: 100%;
+}
+.navbarcells{
+    width: 170pt;
+    margin: 2px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px double #2B2219;
+}
