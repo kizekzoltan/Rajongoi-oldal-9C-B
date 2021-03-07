@@ -1,0 +1,17 @@
+.tartalom {
+    position: relative;
+    display: block;
+}    
+.tartalom::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    background-image: url("gta_o_bg3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 50%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+}
