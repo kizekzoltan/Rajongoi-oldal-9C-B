@@ -5,14 +5,14 @@
 
 .tartalom h1, p, h3 {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
-.tartalom::before {
+.tartalom::after {
     content: ' ';
     display: block;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     opacity: 0.5;
     background-image: url("gta_o_bg3.jpg");
     background-repeat: no-repeat;
