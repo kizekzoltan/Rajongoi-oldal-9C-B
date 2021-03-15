@@ -1,6 +1,10 @@
 .card{
     display:inline-block
 }
+
+.card:hover .card-body{
+    background-color: rgb(150, 150, 150, 0.3);
+}
 .card:hover{
     transform: scale(1.05);
 }
@@ -15,4 +19,10 @@ body{
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
+}
+.bekezdes{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(52, 58, 64, 0.6);
+    padding: 5px;
 }
