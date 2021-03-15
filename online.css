@@ -27,7 +27,7 @@
     display:inline-block
 }
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .table{
     margin-left: 50px;
