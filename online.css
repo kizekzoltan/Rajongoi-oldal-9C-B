@@ -23,6 +23,10 @@
     top: 0;
     left: 0;
 }
-.infok {
-    background-color: ;
+.card{
+    display:inline-block
+}
+.table{
+    margin-left: 50px;
+    margin-right: 50px;
 }
