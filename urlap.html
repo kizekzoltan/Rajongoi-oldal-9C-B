@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Űrlap</title>
+</head>
+<style>
+    body{
+        background: url("urlap_hatter.jpg")
+          no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+}
+    }
+</style>
+<body>
+<div class="container-fluid">
+
+<div class="text-white" style="background-color: rgba(218, 119, 6, 0.6); border-radius: 50%; height: 50px; width: 800px; padding-top: 10px; text-align: center; margin-left: 18.5%;">
+    <h4 style="padding-left: 15px; ">A vásárláshoz kérem töltse ki az alábbi űrlapot!</h4>
+</div><br>
+<div class="text-white" style="background-color: rgb(218, 119, 6, 0.6); margin-left: 200px; margin-right: 200px;">
+    <h4 class="text-white" style="padding-left: 20px; padding-top: 20px;"><u>Számlázási adatok:</u></h4>
+    <form style="padding-left: 100px; padding-top: 10px;">
+        <label for="username"><b>Vezetéknév:</b> </label>
+        <input type="text" name="username" required placeholder="Kiss">
+        <label style="padding-left: 50px;" for="username"><b>Keresztnév:</b> </label>
+        <input type="text" name="username" required placeholder="Gyula"><br>
+        <label style="padding-left: 7px;" for="username"><b>E-mail cím:</b> </label>
+        <input type="text" name="username" required placeholder="valaki@example.com"><br><br>
+       
+        
+        <label style="padding-left: 15px;" for="username"><b>Település:</b></label>
+        <input type="text" name="username" required placeholder="Pápa">
+        <label style="padding-left: 34px;" for="username"><b>Irányítószám:</b> </label>
+        <input type="text" name="username" required placeholder="8541"><br>
+        <label style="padding-left: 5px;" for="username"><b>Közterület jellege:</b></label>
+        <select name="jelleg">
+            <option value="utca">utca</option>
+            <option value="ut">út</option>
+            <option value="korut">körút</option>
+            <option value="dulo">dűlő</option>
+            <option value="fasor">fasor</option>
+          </select>
+        <label style="padding-left: 80px;" for="username"><b>Közterület neve:</b></label>
+        <input type="text" name="username" required placeholder="Petőfi"><br><br>
+      </form>
+
+      <h4 class="text-white" style="padding-left: 20px; padding-top: 20px;"><u>Szállítási adatok:</u></h4>
+      
+      <form style="padding-left: 100px; padding-top: 10px;">
+        <label for="username"><b>Vezetéknév:</b> </label>
+        <input type="text" name="username" required placeholder="Kiss">
+        <label style="padding-left: 50px;" for="username"><b>Keresztnév:</b> </label>
+        <input type="text" name="username" required placeholder="Gyula"><br>
+        <label style="padding-left: px;" for="username"><b>Telefonszám:</b> </label>
+        <input type="text" name="username" required placeholder="06-70-111-1111"><br><br>
+       
+        
+        <label style="padding-left: 15px;" for="username"><b>Település:</b></label>
+        <input type="text" name="username" required placeholder="Győr">
+        <label style="padding-left: 34px;" for="username"><b>Irányítószám:</b> </label>
+        <input type="text" name="username" required placeholder="9330"><br>
+        <label style="padding-left: 5px;" for="username"><b>Közterület jellege:</b></label>
+        <select name="jelleg">
+            <option value="utca">utca</option>
+            <option value="ut">út</option>
+            <option value="korut">körút</option>
+            <option value="dulo">dűlő</option>
+            <option value="fasor">fasor</option>
+          </select>
+        <label style="padding-left: 80px;" for="username"><b>Közterület neve:</b></label>
+        <input type="text" name="username" required placeholder="Kossuth"><br><br>
+      </form>
+      
+      <h4 class="text-white" style="padding-left: 20px; padding-top: 20px;"><u>Átvételi és fizetési mód:</u></h4>
+
+      <form style="padding-left: 100px; padding-top: 30px;">
+        <label" for="username"><b>Fizetési mód:</b></label>
+        <select name="fizetes">
+            <option value="kartya">bankkártya</option>
+            <option value="utanvet">utánvét</option>
+            <option value="utalas">utalás</option>
+        </select>
+        <label style="padding-left: 100px;" for="username"><b>Átvételi mód:</b></label>
+        <select name="fizetes">
+            <option value="gls">GLS futárszolgálat</option>
+            <option value="mpl">MPL futárszolgálat</option>
+        </select>
+        </form><br><br><br>
+        
+        <button style="margin-bottom: 20px; margin-left: 200px; width: 200px; border: 4px solid black; background-color: lightslategray; font-weight: bold;" onclick="myFunction()">Rendelés Leadása</button>
+            
+            <script>
+                function myFunction() {
+                alert("Rendelését fogadta rendszerünk, a tobábbi információkat e-mailben küldjük önnek. Köszönjük vásárlását!");
+                }
+            </script>
+
+</div>
+
+</div>   
+</body>
+</html>
